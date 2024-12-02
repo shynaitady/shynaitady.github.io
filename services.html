@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shyngys Zhaksylyk Portfolio</title>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css ">
+<style>
+    .video{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .music{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+    }
+    h1 {
+        color: rgb(250, 254, 4);
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+    }
+</style>
+</head>
+<body bgcolor="747ED3">
+    <script src="functions.js"></script>
+	<header id="header" class="header">
+		<div class="container">
+			<div class="nav" style="display: flex;">
+                <div>
+					<button onclick="darkMode()">Darkmode</button>
+					<button onclick="lightMode()">LightMode</button>
+				</div>
+                <div>
+					<img src="img/logo.png" alt="logo" class="logo">
+				</div>
+				<ul class="shapka">
+					<li>
+						<a href="index.html" class="button" >About</a>	
+					</li>
+					<li>
+						<a href="resume.html" class="button">Resume</a>
+					</li>
+					<li>
+						<a href="portfolio.html" class="button">Portfolio</a>
+					</li>
+					<li>
+						<a href="services.html" class="zdes button">Services</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<section id="about" class="about">
+    <h1>Memes for fun</h1>
+    <div class="video">
+		<video width="560" height="315" controls autoplay muted loop>
+            <source src="video/cihps.mp4" type="video/mp4">
+          </video>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/TbZnMd5RHL0?si=2JhA7kiMRpaxHpq9&autoplay=1&mute=1"  allow="autoplay" frameborder="0" allowfullscreen></iframe>
+	</div>
+        <h1>Music for soul</h1>
+    <div class="music">
+        <audio controls autoplay loop>
+            <source src="video/music.mp3" type="audio/mp3">
+          </audio>
+    </div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="social-icons">
+				<div class="infocard">
+					<a href="https://www.linkedin.com/in/shyngys-zhaksylyk/">
+						<img src="img/LinkedIn_icon.png" class="iconfoot" alt="LinkedIn">
+					</a>
+				</div>
+				<div class="infocard">
+					<a href="mailto:chinazhak2004@gmail.com">
+						<img src="img/gmail.png" class="iconfoot" alt="Gmail">
+					</a>
+				</div>
+				<div class="infocard">
+					<a href="https://github.com/shynaitady">
+						<img src="img/github.png" class="iconfoot" alt="GitHub">
+					</a>
+				</div>
+				<div class="infocard">
+					<a href="https://t.me/shynaitady/">
+						<img src="img/telegram.svg" class="iconfoot" alt="Telegram">
+					</a>
+				</div>
+			</div>
+			<p class="creator-info">Created by Shyngys Zhaksylyk © 2024</p>
+		</div>
+	</footer>
+</body>
+</html>

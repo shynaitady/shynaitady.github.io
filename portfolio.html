@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shyngys Zhaksylyk Portfolio</title>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css ">
+<style>
+		#about {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 20px; 
+			padding: 20px 0;
+			flex-wrap: wrap; 
+		}
+		.docs {
+			width: 200px; 
+			height: auto; 
+			border-radius: 5px; 
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+		}
+</style>
+</head>
+<body bgcolor="747ED3">
+	<script src="functions.js"></script>
+	<header id="header" class="header">
+		<div class="container">
+			<div class="nav" style="display: flex;">
+				<div>
+					<button onclick="darkMode()">Darkmode</button>
+					<button onclick="lightMode()">LightMode</button>
+				</div>
+				<div>
+					<img src="img/logo.png" alt="logo" class="logo">
+				</div>
+				<ul class="shapka">
+					<li>
+						<a href="index.html" alt="error" class="button" >About</a>	
+					</li>
+					<li>
+						<a href="resume.html" alt="error" class="button">Resume</a>
+					</li>
+					<li>
+						<a href="portfolio.html" alt="error" class="zdes button">Portfolio</a>
+					</li>
+					<li>
+						<a href="services.html" alt="error" class="button">Services</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<section id="about" class="about">
+		<div class="adaptivny-slayder">
+			<input type="radio" name="kadoves" id="slaid1" checked>
+			<input type="radio" name="kadoves" id="slaid2">
+			<input type="radio" name="kadoves" id="slaid3">
+
+			<div class="kadoves">
+			<label for="slaid1"></label>
+			<label for="slaid2"></label>
+			<label for="slaid3"></label>
+
+			</div>
+			 
+			<div class="adaptivny-slayder-lasekun">
+			<div class="abusteku-deagulus">
+			<img src="img/1place.png"/>
+			<img src="img/2place.png"/>
+			<img src="img/3place.png"/>
+			<img src="img/IELTS.png"/>
+			</div>
+			</div>
+		  </div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="social-icons">
+				<div class="infocard">
+					<a href="https://www.linkedin.com/in/shyngys-zhaksylyk/">
+						<img src="img/LinkedIn_icon.png" class="iconfoot" alt="LinkedIn">
+					</a>
+				</div>
+				<div class="infocard">
+					<a href="mailto:chinazhak2004@gmail.com">
+						<img src="img/gmail.png" class="iconfoot" alt="Gmail">
+					</a>
+				</div>
+				<div class="infocard">
+					<a href="https://github.com/shynaitady">
+						<img src="img/github.png" class="iconfoot" alt="GitHub">
+					</a>
+				</div>
+				<div class="infocard">
+					<a href="https://t.me/shynaitady/">
+						<img src="img/telegram.svg" class="iconfoot" alt="Telegram">
+					</a>
+				</div>
+			</div>
+			<p class="creator-info">Created by Shyngys Zhaksylyk © 2024</p>
+		</div>
+	</footer>	
+</body>
+</html>
