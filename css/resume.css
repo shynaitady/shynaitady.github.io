@@ -118,7 +118,7 @@ ul, li{
     
 }
 .shapka li{
-	margin-right: 133px;
+	margin-right: 100px;
  
 }
 
@@ -468,4 +468,10 @@ ul, li{
 
 #scrollUp:hover {
     background-color: #021449;
+}
+.interactive-clock {
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  width: 100px;
 }

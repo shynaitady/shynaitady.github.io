@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shyngys Zhaksylyk Portfolio</title>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/contact.css">
+</head>
+<body bgcolor="747ED3">
+    <script src="functions.js"></script>
+	<header id="header" class="header">
+		<div class="container">
+			<div class="nav" style="display: flex;">
+                <div>
+					<button onclick="darkMode()">Darkmode</button>
+					<button onclick="lightMode()">LightMode</button>
+				</div>
+				<div>
+					<img src="img/logo.png" alt="logo" class="logo">
+				</div>
+				<ul class="shapka">
+					<li><a href="index.html" class="button">About</a></li>
+					<li><a href="resume.html" class="button">Resume</a></li>
+					<li><a href="portfolio.html" class="button">Portfolio</a></li>
+					<li><a href="services.html" class="button">Services</a></li>
+					<li><a href="contact.html" class="zdes button">Feedback</a></li>
+				</ul>
+			</div>
+                <h1>Contact Form</h1>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="address" required>
+                    </div>
+                    <h2>Survey Questions (Rate 1-10)</h2>
+                    <div class="form-group">
+                        <label for="q1">How satisfied are you with our website?</label>
+                        <input type="number" id="q1" name="q1" min="1" max="10" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="q2">How easy was it to navigate the site?</label>
+                        <input type="number" id="q2" name="q2" min="1" max="10" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="q3">How likely are you to recommend our site?</label>
+                        <input type="number" id="q3" name="q3" min="1" max="10" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="q4">How satisfied are you with our support?</label>
+                        <input type="number" id="q4" name="q4" min="1" max="10" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="q5">Overall experience with the site?</label>
+                        <input type="number" id="q5" name="q5" min="1" max="10" required>
+                    </div>
+                    <button type="button" id="submitBtn" class="submit-button">Submit</button>
+                </form>
+                <div class="result" id="result"></div>
+                <script src="script.js"></script>
+	</header>
+	<footer class="footer">
+		<div class="container">
+			<div class="social-icons">
+				<div class="infocard">
+					<a href="https://www.linkedin.com/in/shyngys-zhaksylyk/">
+						<img src="img/LinkedIn_icon.png" class="iconfoot" alt="LinkedIn">
+					</a>
+				</div>
+				<div class="infocard">
+					<a href="mailto:chinazhak2004@gmail.com">
+						<img src="img/gmail.png" class="iconfoot" alt="Gmail">
+					</a>
+				</div>
+				<div class="infocard">
+					<a href="https://github.com/shynaitady">
+						<img src="img/github.png" class="iconfoot" alt="GitHub">
+					</a>
+				</div>
+				<div class="infocard">
+					<a href="https://t.me/shynaitady/">
+						<img src="img/telegram.svg" class="iconfoot" alt="Telegram">
+					</a>
+				</div>
+			</div>
+			<p class="creator-info">Created by Shyngys Zhaksylyk © 2024</p>
+			<div id="clock" class="interactive-clock">00:00:00</div> 
+		</div>
+	</footer>
+    <script src="clock.js"></script> 
+</body>
+</html>
+
+

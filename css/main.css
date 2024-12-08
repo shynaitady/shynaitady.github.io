@@ -74,7 +74,7 @@ ul, li{
     
 }
 .shapka li{
-	margin-right: 133px;
+	margin-right: 100px;
  
 }
 
@@ -408,3 +408,76 @@ ul, li{
 	font-size: 16px;
 	margin-top: 10px;
 }
+
+.formula {
+	font-size: 40px;
+}
+.interactive-clock {
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    width: 100px;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+    display: none; 
+}
+
+.submit-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+.contactForm{
+	width: 80%;
+}
+.submit-button:hover {
+    background-color: #218838;
+}
+.form-group {
+	margin-bottom: 10px;
+}
+.form-group label {
+	display: block;
+	margin-bottom: 5px;
+}
+.result {
+	margin-top: 20px;
+}
+.average {
+	font-weight: bold;
+}
+.red { color: red; }
+.orange { color: orange; }
+.green { color: green; }
